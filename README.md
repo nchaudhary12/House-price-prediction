@@ -67,25 +67,25 @@ http://127.0.0.1:8000/predict<br>
 
 MAE = 18,826<br>
 MSE = 880,962,731<br>
-RMSE = 29,681
-R² Score = 0.8851
-🎯 Future Enhancements
-✅ Deploy API on AWS/GCP/Render
-✅ Implement Model Versioning (MLflow/DVC)
-✅ Add Frontend UI for user interaction
-✅ Improve Model Performance with Feature Engineering
+RMSE = 29,681<br>
+R² Score = 0.8851<br>
+🎯 Future Enhancements<br>
+✅ Deploy API on AWS/GCP/Render<br>
+✅ Implement Model Versioning (MLflow/DVC)<br>
+✅ Add Frontend UI for user interaction<br>
+✅ Improve Model Performance with Feature Engineering<br>
 
-🤝 Contributing
-🔹 Fork the repository
-🔹 Create a new branch: git checkout -b feature-branch
-🔹 Commit changes: git commit -m "Your message"
-🔹 Push to GitHub: git push origin feature-branch
-🔹 Create a Pull Request
+🤝 Contributing<br>
+🔹 Fork the repository<br>
+🔹 Create a new branch: git checkout -b feature-branch<br>
+🔹 Commit changes: git commit -m "Your message"<br>
+🔹 Push to GitHub: git push origin feature-branch<br>
+🔹 Create a Pull Request<br>
 
-📜 License
-This project is open-source and available under the MIT License.
+📜 License<br>
+This project is open-source and available under the MIT License.<br>
 
-📞 Contact
-👩‍💻 Developer: Nishi Chaudhary
-📧 Email: nchaudhary@example.com
-🌐 GitHub: nchaudhary12
+📞 Contact<br>
+👩‍💻 Developer: Nishi Chaudhary<br>
+📧 Email: nishichaudhary2001@gmail.com<br>
+🌐 GitHub: nchaudhary12<br>
