@@ -1,41 +1,40 @@
-# House-price-prediction
-🏡 House Price Prediction API
-📢 A Machine Learning model to predict house prices based on key features.
-🚀 Built using: FastAPI, Scikit-Learn, Random Forest, and Docker.
+# House-price-prediction      <br>
+🏡 House Price Prediction API    <br>
+📢 A Machine Learning model to predict house prices based on key features. <br>
+🚀 Built using: FastAPI, Scikit-Learn, Random Forest, and Docker. <br>
 
 
-📌 Project Overview
-This project uses Machine Learning to predict house prices based on various features such as square footage, number of rooms, and quality scores.
-It includes:
-✅ Data Preprocessing & Feature Engineering
-✅ Multiple Model Training & Optimization
-✅ FastAPI Deployment for real-time predictions
-✅ Containerization with Docker (optional)
-✅ Deployment on Render/AWS/GCP (optional)
+📌 Project Overview <br>
+This project uses Machine Learning to predict house prices based on various features such as square footage, number of rooms, and quality scores. <br>
+It includes: <br>
+✅ Data Preprocessing & Feature Engineering <br>
+✅ Multiple Model Training & Optimization <br>
+✅ FastAPI Deployment for real-time predictions <br>
+✅ Containerization with Docker (optional) <br>
+✅ Deployment on Render/AWS/GCP (optional) <br>
 
-🚀 Getting Started
-1️⃣ Clone the Repository
+🚀 Getting Started <br>
+1️⃣ Clone the Repository <br>
 
-git clone https://github.com/nchaudhary12/house-price-prediction.git
-cd house-price-prediction
-2️⃣ Create a Virtual Environment & Install Dependencies
+git clone https://github.com/nchaudhary12/house-price-prediction.git <br>
+cd house-price-prediction <br>
+2️⃣ Create a Virtual Environment & Install Dependencies <br>
 
-python -m venv venv
-source venv/bin/activate  # For Mac/Linux
-venv\Scripts\activate     # For Windows
-pip install -r requirements.txt
-3️⃣ Run FastAPI Locally
+python -m venv venv <br>
+venv\Scripts\activate     # For Windows<br>
 
-uvicorn app:app --host 127.0.0.1 --port 8000 --reload
-4️⃣ Test API Using Postman or Swagger UI
-Open Swagger UI: http://127.0.0.1:8000/docs
-Or use Postman to send a POST request to:
-http://127.0.0.1:8000/predict
+pip install -r requirements.txt<br>
 
-📌 Example JSON Input:
-json
-Copy
-Edit
+3️⃣ Run FastAPI Locally<br>
+uvicorn app:app --host 127.0.0.1 --port 8000 --reload<br>
+
+4️⃣ Test API Using Postman or Swagger UI<br>
+Open Swagger UI: http://127.0.0.1:8000/docs<br>
+Or use Postman to send a POST request to:<br>
+http://127.0.0.1:8000/predict<br>
+
+📌 Example JSON Input:<br>
+
 {
   "OverallQual": 7,
   "GrLivArea": 2000,
@@ -47,26 +46,27 @@ Edit
   "1stFlrSF": 1200,
   "BsmtQual": 3
 }
-✅ Example Response:
+<br>
+✅ Example Response:<br>
 {
   "predicted_price": 312239.69
-}
+}<br>
 
-📊 Model Training & Evaluation
-1️⃣ Data Cleaning & Preprocessing
-2️⃣ Feature Engineering (Scaling, Encoding, Feature Selection)
-3️⃣ Trained models:
+📊 Model Training & Evaluation<br>
+1️⃣ Data Cleaning & Preprocessing<br>
+2️⃣ Feature Engineering (Scaling, Encoding, Feature Selection)<br>
+3️⃣ Trained models:<br>
 
-✅ Linear Regression
-✅ Decision Tree
-✅ Random Forest (Best Model)
-✅ XGBoost 4️⃣ Hyperparameter Tuning with GridSearchCV 5️⃣ Model Evaluation (RMSE, MAE, R² Score)
-🔹 Final Model: RandomForestRegressor
-🔹 Best Hyperparameters: n_estimators=300, max_depth=15
-🔹 Evaluation Metrics:
+✅ Linear Regression<br>
+✅ Decision Tree<br>
+✅ Random Forest (Best Model)<br>
+✅ XGBoost 4️⃣ Hyperparameter Tuning with GridSearchCV 5️⃣ Model Evaluation (RMSE, MAE, R² Score)<br>
+🔹 Final Model: RandomForestRegressor<br>
+🔹 Best Hyperparameters: n_estimators=300, max_depth=15<br>
+🔹 Evaluation Metrics:<br>
 
-MAE = 18,826
-MSE = 880,962,731
+MAE = 18,826<br>
+MSE = 880,962,731<br>
 RMSE = 29,681
 R² Score = 0.8851
 🎯 Future Enhancements
